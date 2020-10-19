@@ -1,0 +1,54 @@
+<div class="table-responsive" align="center" style="color: black !important;">
+                            <table class="table-striped table table-bordered table-hover table-responsive" align="center">
+                                <thead class="">
+                                    <tr>
+										<th> Username </th>
+                                        <th> Role </th>
+                                        <th> Fullname </th>
+                                        <th> Email </th>
+                                        <th> Etherum acct </th>
+                                        <th> Bitcoin Acct </th>
+										<th> PerfectMoney Acct </th>
+                                        <th> Login count </th>
+										<th> Registered </th>
+                                        <th> Last login </th>
+                                    </tr>
+                                </thead>
+								<tbody v-if="allStudents.length" class="list-unstyled h-25 p-2" style="width:100%">
+								<?php foreach($users as $user): ?>
+                                    <tr>
+                                        <td>
+                                           <?= $user['username']; ?>
+                                        </td>
+                                        <td>
+										<?= $user['role']; ?>
+                                        </td>
+                                        <td>
+										<?= $user['fullname']; ?>
+                                        </td>
+                                        <td>
+										<?= $user['email']; ?>
+                                        </td>
+                                        <td>
+										<?=View_cell('App\Libraries\Functions::getAccount', ['json' => $user['payaccount'], 'type' => 'eth']); ?>
+                                        </td>
+                                        <td>
+                                        <?=View_cell('App\Libraries\Functions::getAccount', ['json' => $user['payaccount'], 'type' => 'bit']); ?>
+										</td>
+										<td>
+                                        <?=View_cell('App\Libraries\Functions::getAccount', ['json' => $user['payaccount'], 'type' => 'per']); ?>
+										</td>
+										<td>
+                                           <?= $user['login_count']; ?>
+										</td>
+										<td>
+											<?= View_cell('App\Libraries\Functions::timeago', ['date' => $user['created_at']]); ?> 
+										</td>
+										<td>
+											<?= View_cell('App\Libraries\Functions::timeago', ['date' => $user['updated_at']]); ?> 
+										</td>
+									</tr>
+								<?php endforeach; ?>
+                                </tbody>
+                            </table>
+						</div>
