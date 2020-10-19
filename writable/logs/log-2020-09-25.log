@@ -1,0 +1,70 @@
+CRITICAL - 2020-09-25 06:22:01 --> Argument 1 passed to url_title() must be of the type string, null given, called in C:\lara\www\iblogg\app\Controllers\Api\Posts.php on line 24
+#0 C:\lara\www\iblogg\app\Controllers\Api\Posts.php(24): url_title(NULL, '-', true)
+#1 C:\lara\www\iblogg\system\CodeIgniter.php(914): App\Controllers\Api\Posts->handlePost()
+#2 C:\lara\www\iblogg\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api\Posts))
+#3 C:\lara\www\iblogg\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\lara\www\iblogg\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\lara\www\iblogg\system\Commands\Server\rewrite.php(34): require_once('C:\\lara\\www\\ibl...')
+#6 {main}
+CRITICAL - 2020-09-25 06:25:39 --> Argument 1 passed to url_title() must be of the type string, null given, called in C:\lara\www\iblogg\app\Controllers\Api\Posts.php on line 24
+#0 C:\lara\www\iblogg\app\Controllers\Api\Posts.php(24): url_title(NULL, '-', true)
+#1 C:\lara\www\iblogg\system\CodeIgniter.php(914): App\Controllers\Api\Posts->handlePost()
+#2 C:\lara\www\iblogg\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api\Posts))
+#3 C:\lara\www\iblogg\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\lara\www\iblogg\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\lara\www\iblogg\system\Commands\Server\rewrite.php(34): require_once('C:\\lara\\www\\ibl...')
+#6 {main}
+CRITICAL - 2020-09-25 06:28:12 --> Argument 1 passed to url_title() must be of the type string, null given, called in C:\lara\www\iblogg\app\Controllers\Api\Posts.php on line 24
+#0 C:\lara\www\iblogg\app\Controllers\Api\Posts.php(24): url_title(NULL, '-', true)
+#1 C:\lara\www\iblogg\system\CodeIgniter.php(914): App\Controllers\Api\Posts->handlePost()
+#2 C:\lara\www\iblogg\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api\Posts))
+#3 C:\lara\www\iblogg\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\lara\www\iblogg\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\lara\www\iblogg\system\Commands\Server\rewrite.php(34): require_once('C:\\lara\\www\\ibl...')
+#6 {main}
+CRITICAL - 2020-09-25 07:45:35 --> syntax error, unexpected '}'
+#0 C:\lara\www\iblogg\system\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->requireFile('C:\\lara\\www\\ibl...')
+#1 C:\lara\www\iblogg\system\Autoloader\Autoloader.php(258): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 C:\lara\www\iblogg\system\CodeIgniter.php(865): class_exists('\\App\\Controller...', true)
+#5 C:\lara\www\iblogg\system\CodeIgniter.php(390): CodeIgniter\CodeIgniter->startController()
+#6 C:\lara\www\iblogg\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\lara\www\iblogg\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 C:\lara\www\iblogg\system\Commands\Server\rewrite.php(34): require_once('C:\\lara\\www\\ibl...')
+#9 {main}
+CRITICAL - 2020-09-25 07:47:25 --> syntax error, unexpected '}'
+#0 C:\lara\www\iblogg\system\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->requireFile('C:\\lara\\www\\ibl...')
+#1 C:\lara\www\iblogg\system\Autoloader\Autoloader.php(258): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 C:\lara\www\iblogg\system\CodeIgniter.php(865): class_exists('\\App\\Controller...', true)
+#5 C:\lara\www\iblogg\system\CodeIgniter.php(390): CodeIgniter\CodeIgniter->startController()
+#6 C:\lara\www\iblogg\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\lara\www\iblogg\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 C:\lara\www\iblogg\system\Commands\Server\rewrite.php(34): require_once('C:\\lara\\www\\ibl...')
+#9 {main}
+CRITICAL - 2020-09-25 07:57:34 --> Invalid file: progress.php
+#0 C:\lara\www\iblogg\system\View\View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('progress.php')
+#1 C:\lara\www\iblogg\system\Common.php(1087): CodeIgniter\View\View->render('progress', Array, true)
+#2 C:\lara\www\iblogg\app\Controllers\Admin\Views.php(135): view('progress')
+#3 C:\lara\www\iblogg\app\Controllers\Template\View.php(81): App\Controllers\Admin\Views->progressPage(Object(CodeIgniter\HTTP\IncomingRequest))
+#4 C:\lara\www\iblogg\system\CodeIgniter.php(914): App\Controllers\Template\View->view('admin')
+#5 C:\lara\www\iblogg\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Template\View))
+#6 C:\lara\www\iblogg\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\lara\www\iblogg\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 C:\lara\www\iblogg\system\Commands\Server\rewrite.php(34): require_once('C:\\lara\\www\\ibl...')
+#9 {main}
+CRITICAL - 2020-09-25 08:00:00 --> Undefined variable: is_edit
+#0 C:\lara\www\iblogg\app\Views\admin\progress.php(10): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\lara\\www\\ibl...', 10, Array)
+#1 C:\lara\www\iblogg\system\View\View.php(246): include('C:\\lara\\www\\ibl...')
+#2 C:\lara\www\iblogg\system\Common.php(1087): CodeIgniter\View\View->render('admin/progress', Array, true)
+#3 C:\lara\www\iblogg\app\Controllers\Home.php(25): view('admin/progress', Array)
+#4 C:\lara\www\iblogg\app\Controllers\Admin\Views.php(135): App\Controllers\Home->view('admin', 'progress')
+#5 C:\lara\www\iblogg\app\Controllers\Template\View.php(81): App\Controllers\Admin\Views->progressPage(Object(CodeIgniter\HTTP\IncomingRequest))
+#6 C:\lara\www\iblogg\system\CodeIgniter.php(914): App\Controllers\Template\View->view('admin')
+#7 C:\lara\www\iblogg\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Template\View))
+#8 C:\lara\www\iblogg\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\lara\www\iblogg\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#10 C:\lara\www\iblogg\system\Commands\Server\rewrite.php(34): require_once('C:\\lara\\www\\ibl...')
+#11 {main}

@@ -1,0 +1,151 @@
+CRITICAL - 2020-08-23 13:20:47 --> No connection could be made because the target machine actively refused it.
+
+#0 C:\lara\www\iblogg\system\Database\BaseConnection.php(377): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\lara\www\iblogg\system\Database\BaseConnection.php(643): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\lara\www\iblogg\system\Database\BaseBuilder.php(1845): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 C:\lara\www\iblogg\system\Model.php(445): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\lara\www\iblogg\app\Models\Posts.php(19): CodeIgniter\Model->findAll()
+#5 C:\lara\www\iblogg\app\Controllers\Template\View.php(16): App\Models\Posts->getPosts()
+#6 C:\lara\www\iblogg\system\CodeIgniter.php(914): App\Controllers\Template\View->view('homepost')
+#7 C:\lara\www\iblogg\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Template\View))
+#8 C:\lara\www\iblogg\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\lara\www\iblogg\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#10 C:\lara\www\iblogg\system\Commands\Server\rewrite.php(34): require_once('C:\\lara\\www\\ibl...')
+#11 {main}
+CRITICAL - 2020-08-23 13:20:56 --> No connection could be made because the target machine actively refused it.
+
+#0 C:\lara\www\iblogg\system\Database\BaseConnection.php(377): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\lara\www\iblogg\system\Database\BaseConnection.php(643): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\lara\www\iblogg\system\Database\BaseBuilder.php(1845): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 C:\lara\www\iblogg\system\Model.php(445): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\lara\www\iblogg\app\Models\Posts.php(19): CodeIgniter\Model->findAll()
+#5 C:\lara\www\iblogg\app\Controllers\Template\View.php(16): App\Models\Posts->getPosts()
+#6 C:\lara\www\iblogg\system\CodeIgniter.php(914): App\Controllers\Template\View->view('homepost')
+#7 C:\lara\www\iblogg\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Template\View))
+#8 C:\lara\www\iblogg\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\lara\www\iblogg\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#10 C:\lara\www\iblogg\system\Commands\Server\rewrite.php(34): require_once('C:\\lara\\www\\ibl...')
+#11 {main}
+CRITICAL - 2020-08-23 13:21:02 --> No connection could be made because the target machine actively refused it.
+
+#0 C:\lara\www\iblogg\system\Database\BaseConnection.php(377): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\lara\www\iblogg\system\Database\BaseConnection.php(643): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\lara\www\iblogg\system\Database\BaseBuilder.php(1845): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 C:\lara\www\iblogg\system\Model.php(445): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\lara\www\iblogg\app\Models\Posts.php(19): CodeIgniter\Model->findAll()
+#5 C:\lara\www\iblogg\app\Controllers\Template\View.php(16): App\Models\Posts->getPosts()
+#6 C:\lara\www\iblogg\system\CodeIgniter.php(914): App\Controllers\Template\View->view('homepost')
+#7 C:\lara\www\iblogg\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Template\View))
+#8 C:\lara\www\iblogg\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\lara\www\iblogg\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#10 C:\lara\www\iblogg\system\Commands\Server\rewrite.php(34): require_once('C:\\lara\\www\\ibl...')
+#11 {main}
+CRITICAL - 2020-08-23 13:35:33 --> Invalid file: user/homepost.php
+#0 C:\lara\www\iblogg\system\View\View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('user/homepost.p...')
+#1 C:\lara\www\iblogg\system\Common.php(1087): CodeIgniter\View\View->render('user/homepost', Array, true)
+#2 C:\lara\www\iblogg\app\Controllers\Template\View.php(17): view('user/homepost', Array)
+#3 C:\lara\www\iblogg\system\CodeIgniter.php(914): App\Controllers\Template\View->view('homepost')
+#4 C:\lara\www\iblogg\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Template\View))
+#5 C:\lara\www\iblogg\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\lara\www\iblogg\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 C:\lara\www\iblogg\system\Commands\Server\rewrite.php(34): require_once('C:\\lara\\www\\ibl...')
+#8 {main}
+CRITICAL - 2020-08-23 13:35:48 --> Undefined variable: page_title
+#0 C:\lara\www\iblogg\app\Views\user\header.php(13): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\lara\\www\\ibl...', 13, Array)
+#1 C:\lara\www\iblogg\system\View\View.php(246): include('C:\\lara\\www\\ibl...')
+#2 C:\lara\www\iblogg\system\Common.php(1087): CodeIgniter\View\View->render('user/header', Array, true)
+#3 C:\lara\www\iblogg\app\Controllers\Template\View.php(17): view('user/header', Array)
+#4 C:\lara\www\iblogg\system\CodeIgniter.php(914): App\Controllers\Template\View->view('homepost')
+#5 C:\lara\www\iblogg\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Template\View))
+#6 C:\lara\www\iblogg\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\lara\www\iblogg\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 C:\lara\www\iblogg\system\Commands\Server\rewrite.php(34): require_once('C:\\lara\\www\\ibl...')
+#9 {main}
+CRITICAL - 2020-08-23 13:36:13 --> Undefined variable: page_title
+#0 C:\lara\www\iblogg\app\Views\user\header.php(13): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\lara\\www\\ibl...', 13, Array)
+#1 C:\lara\www\iblogg\system\View\View.php(246): include('C:\\lara\\www\\ibl...')
+#2 C:\lara\www\iblogg\system\Common.php(1087): CodeIgniter\View\View->render('user/header', Array, true)
+#3 C:\lara\www\iblogg\app\Controllers\Template\View.php(17): view('user/header', Array)
+#4 C:\lara\www\iblogg\system\CodeIgniter.php(914): App\Controllers\Template\View->view('homepost')
+#5 C:\lara\www\iblogg\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Template\View))
+#6 C:\lara\www\iblogg\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\lara\www\iblogg\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 C:\lara\www\iblogg\system\Commands\Server\rewrite.php(34): require_once('C:\\lara\\www\\ibl...')
+#9 {main}
+CRITICAL - 2020-08-23 13:42:38 --> Undefined variable: page_title
+#0 C:\lara\www\iblogg\app\Views\user\header.php(13): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\lara\\www\\ibl...', 13, Array)
+#1 C:\lara\www\iblogg\system\View\View.php(246): include('C:\\lara\\www\\ibl...')
+#2 C:\lara\www\iblogg\system\Common.php(1087): CodeIgniter\View\View->render('user/header', Array, true)
+#3 C:\lara\www\iblogg\app\Controllers\Template\View.php(17): view('user/header', Array)
+#4 C:\lara\www\iblogg\system\CodeIgniter.php(914): App\Controllers\Template\View->view('homepost')
+#5 C:\lara\www\iblogg\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Template\View))
+#6 C:\lara\www\iblogg\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\lara\www\iblogg\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 C:\lara\www\iblogg\system\Commands\Server\rewrite.php(34): require_once('C:\\lara\\www\\ibl...')
+#9 {main}
+CRITICAL - 2020-08-23 13:43:40 --> Undefined variable: page_title
+#0 C:\lara\www\iblogg\app\Views\user\header.php(13): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\lara\\www\\ibl...', 13, Array)
+#1 C:\lara\www\iblogg\system\View\View.php(246): include('C:\\lara\\www\\ibl...')
+#2 C:\lara\www\iblogg\system\Common.php(1087): CodeIgniter\View\View->render('/user/header', Array, true)
+#3 C:\lara\www\iblogg\app\Controllers\Template\View.php(17): view('/user/header', Array)
+#4 C:\lara\www\iblogg\system\CodeIgniter.php(914): App\Controllers\Template\View->view('homepost')
+#5 C:\lara\www\iblogg\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Template\View))
+#6 C:\lara\www\iblogg\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\lara\www\iblogg\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 C:\lara\www\iblogg\system\Commands\Server\rewrite.php(34): require_once('C:\\lara\\www\\ibl...')
+#9 {main}
+CRITICAL - 2020-08-23 13:44:14 --> Undefined variable: page_title
+#0 C:\lara\www\iblogg\app\Views\user\header.php(13): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\lara\\www\\ibl...', 13, Array)
+#1 C:\lara\www\iblogg\system\View\View.php(246): include('C:\\lara\\www\\ibl...')
+#2 C:\lara\www\iblogg\system\Common.php(1087): CodeIgniter\View\View->render('/user/header.ph...', Array, true)
+#3 C:\lara\www\iblogg\app\Controllers\Template\View.php(17): view('/user/header.ph...', Array)
+#4 C:\lara\www\iblogg\system\CodeIgniter.php(914): App\Controllers\Template\View->view('homepost')
+#5 C:\lara\www\iblogg\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Template\View))
+#6 C:\lara\www\iblogg\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\lara\www\iblogg\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 C:\lara\www\iblogg\system\Commands\Server\rewrite.php(34): require_once('C:\\lara\\www\\ibl...')
+#9 {main}
+CRITICAL - 2020-08-23 13:45:22 --> Undefined variable: page_title
+#0 C:\lara\www\iblogg\app\Views\user\header.php(13): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\lara\\www\\ibl...', 13, Array)
+#1 C:\lara\www\iblogg\system\View\View.php(246): include('C:\\lara\\www\\ibl...')
+#2 C:\lara\www\iblogg\system\Common.php(1087): CodeIgniter\View\View->render('user/header', Array, true)
+#3 C:\lara\www\iblogg\app\Controllers\Template\View.php(17): view('user/header')
+#4 C:\lara\www\iblogg\system\CodeIgniter.php(914): App\Controllers\Template\View->view('homepost')
+#5 C:\lara\www\iblogg\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Template\View))
+#6 C:\lara\www\iblogg\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\lara\www\iblogg\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 C:\lara\www\iblogg\system\Commands\Server\rewrite.php(34): require_once('C:\\lara\\www\\ibl...')
+#9 {main}
+CRITICAL - 2020-08-23 13:46:12 --> syntax error, unexpected '?>'
+#0 C:\lara\www\iblogg\system\Common.php(1087): CodeIgniter\View\View->render('user/header', Array, true)
+#1 C:\lara\www\iblogg\app\Controllers\Template\View.php(17): view('user/header')
+#2 C:\lara\www\iblogg\system\CodeIgniter.php(914): App\Controllers\Template\View->view('homepost')
+#3 C:\lara\www\iblogg\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Template\View))
+#4 C:\lara\www\iblogg\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\lara\www\iblogg\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 C:\lara\www\iblogg\system\Commands\Server\rewrite.php(34): require_once('C:\\lara\\www\\ibl...')
+#7 {main}
+CRITICAL - 2020-08-23 13:46:23 --> syntax error, unexpected '?>'
+#0 C:\lara\www\iblogg\system\Common.php(1087): CodeIgniter\View\View->render('user/header', Array, true)
+#1 C:\lara\www\iblogg\app\Controllers\Template\View.php(17): view('user/header')
+#2 C:\lara\www\iblogg\system\CodeIgniter.php(914): App\Controllers\Template\View->view('homepost')
+#3 C:\lara\www\iblogg\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Template\View))
+#4 C:\lara\www\iblogg\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\lara\www\iblogg\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 C:\lara\www\iblogg\system\Commands\Server\rewrite.php(34): require_once('C:\\lara\\www\\ibl...')
+#7 {main}
+CRITICAL - 2020-08-23 20:47:17 --> Too few arguments to function App\Controllers\Template\View::view(), 0 passed in C:\lara\www\iblogg\system\CodeIgniter.php on line 914 and at least 1 expected
+#0 C:\lara\www\iblogg\system\CodeIgniter.php(914): App\Controllers\Template\View->view()
+#1 C:\lara\www\iblogg\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Template\View))
+#2 C:\lara\www\iblogg\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\lara\www\iblogg\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 C:\lara\www\iblogg\system\Commands\Server\rewrite.php(34): require_once('C:\\lara\\www\\ibl...')
+#5 {main}
+CRITICAL - 2020-08-23 20:56:35 --> Call to a member function orderBy() on array
+#0 C:\lara\www\iblogg\app\Controllers\Template\View.php(17): App\Models\Posts->getPosts()
+#1 C:\lara\www\iblogg\system\CodeIgniter.php(914): App\Controllers\Template\View->view('homepost')
+#2 C:\lara\www\iblogg\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Template\View))
+#3 C:\lara\www\iblogg\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\lara\www\iblogg\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\lara\www\iblogg\system\Commands\Server\rewrite.php(34): require_once('C:\\lara\\www\\ibl...')
+#6 {main}

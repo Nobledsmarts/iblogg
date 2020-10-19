@@ -1,0 +1,221 @@
+CRITICAL - 2020-09-13 01:30:26 --> Call to undefined function App\Controllers\Template\populate_roles_300()
+#0 C:\lara\www\iblogg\system\CodeIgniter.php(914): App\Controllers\Template\View->view('user')
+#1 C:\lara\www\iblogg\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Template\View))
+#2 C:\lara\www\iblogg\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\lara\www\iblogg\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 C:\lara\www\iblogg\system\Commands\Server\rewrite.php(34): require_once('C:\\lara\\www\\ibl...')
+#5 {main}
+CRITICAL - 2020-09-13 01:54:20 --> syntax error, unexpected '$data' (T_VARIABLE), expecting ',' or ';'
+#0 C:\lara\www\iblogg\system\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->requireFile('C:\\lara\\www\\ibl...')
+#1 C:\lara\www\iblogg\system\Autoloader\Autoloader.php(258): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 C:\lara\www\iblogg\system\CodeIgniter.php(865): class_exists('\\App\\Controller...', true)
+#5 C:\lara\www\iblogg\system\CodeIgniter.php(390): CodeIgniter\CodeIgniter->startController()
+#6 C:\lara\www\iblogg\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\lara\www\iblogg\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 C:\lara\www\iblogg\system\Commands\Server\rewrite.php(34): require_once('C:\\lara\\www\\ibl...')
+#9 {main}
+CRITICAL - 2020-09-13 01:55:54 --> No connection could be made because the target machine actively refused it.
+
+#0 C:\lara\www\iblogg\system\Database\BaseConnection.php(377): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\lara\www\iblogg\system\Database\BaseConnection.php(643): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\lara\www\iblogg\system\Database\BaseBuilder.php(1845): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 C:\lara\www\iblogg\system\Model.php(445): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\lara\www\iblogg\app\Controllers\Template\View.php(43): CodeIgniter\Model->findAll(3, 0)
+#5 C:\lara\www\iblogg\app\Controllers\Template\View.php(21): App\Controllers\Template\View->UserIndex(3, 0)
+#6 C:\lara\www\iblogg\system\CodeIgniter.php(914): App\Controllers\Template\View->view('user')
+#7 C:\lara\www\iblogg\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Template\View))
+#8 C:\lara\www\iblogg\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\lara\www\iblogg\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#10 C:\lara\www\iblogg\system\Commands\Server\rewrite.php(34): require_once('C:\\lara\\www\\ibl...')
+#11 {main}
+CRITICAL - 2020-09-13 01:56:08 --> No connection could be made because the target machine actively refused it.
+
+#0 C:\lara\www\iblogg\system\Database\BaseConnection.php(377): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\lara\www\iblogg\system\Database\BaseConnection.php(643): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\lara\www\iblogg\system\Database\BaseBuilder.php(1845): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 C:\lara\www\iblogg\system\Model.php(445): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\lara\www\iblogg\app\Controllers\Template\View.php(43): CodeIgniter\Model->findAll(3, 0)
+#5 C:\lara\www\iblogg\app\Controllers\Template\View.php(21): App\Controllers\Template\View->UserIndex(3, 0)
+#6 C:\lara\www\iblogg\system\CodeIgniter.php(914): App\Controllers\Template\View->view('user')
+#7 C:\lara\www\iblogg\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Template\View))
+#8 C:\lara\www\iblogg\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\lara\www\iblogg\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#10 C:\lara\www\iblogg\system\Commands\Server\rewrite.php(34): require_once('C:\\lara\\www\\ibl...')
+#11 {main}
+CRITICAL - 2020-09-13 01:56:16 --> No connection could be made because the target machine actively refused it.
+
+#0 C:\lara\www\iblogg\system\Database\BaseConnection.php(377): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\lara\www\iblogg\system\Database\BaseConnection.php(643): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\lara\www\iblogg\system\Database\BaseBuilder.php(1845): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 C:\lara\www\iblogg\system\Model.php(445): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\lara\www\iblogg\app\Controllers\Template\View.php(43): CodeIgniter\Model->findAll(3, 0)
+#5 C:\lara\www\iblogg\app\Controllers\Template\View.php(21): App\Controllers\Template\View->UserIndex(3, 0)
+#6 C:\lara\www\iblogg\system\CodeIgniter.php(914): App\Controllers\Template\View->view('user')
+#7 C:\lara\www\iblogg\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Template\View))
+#8 C:\lara\www\iblogg\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\lara\www\iblogg\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#10 C:\lara\www\iblogg\system\Commands\Server\rewrite.php(34): require_once('C:\\lara\\www\\ibl...')
+#11 {main}
+CRITICAL - 2020-09-13 01:56:25 --> No connection could be made because the target machine actively refused it.
+
+#0 C:\lara\www\iblogg\system\Database\BaseConnection.php(377): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\lara\www\iblogg\system\Database\BaseConnection.php(643): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\lara\www\iblogg\system\Database\BaseBuilder.php(1845): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 C:\lara\www\iblogg\system\Model.php(445): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\lara\www\iblogg\app\Controllers\Template\View.php(43): CodeIgniter\Model->findAll(3, 0)
+#5 C:\lara\www\iblogg\app\Controllers\Template\View.php(21): App\Controllers\Template\View->UserIndex(3, 0)
+#6 C:\lara\www\iblogg\system\CodeIgniter.php(914): App\Controllers\Template\View->view('user')
+#7 C:\lara\www\iblogg\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Template\View))
+#8 C:\lara\www\iblogg\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\lara\www\iblogg\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#10 C:\lara\www\iblogg\system\Commands\Server\rewrite.php(34): require_once('C:\\lara\\www\\ibl...')
+#11 {main}
+CRITICAL - 2020-09-13 01:57:17 --> Call to a member function countAll() on array
+#0 C:\lara\www\iblogg\app\Controllers\Template\View.php(21): App\Controllers\Template\View->UserIndex(3, 0)
+#1 C:\lara\www\iblogg\system\CodeIgniter.php(914): App\Controllers\Template\View->view('user')
+#2 C:\lara\www\iblogg\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Template\View))
+#3 C:\lara\www\iblogg\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\lara\www\iblogg\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\lara\www\iblogg\system\Commands\Server\rewrite.php(34): require_once('C:\\lara\\www\\ibl...')
+#6 {main}
+CRITICAL - 2020-09-13 02:00:19 --> Call to undefined method App\Models\Posts::asCount
+#0 C:\lara\www\iblogg\app\Controllers\Template\View.php(45): CodeIgniter\Model->__call('asCount', Array)
+#1 C:\lara\www\iblogg\app\Controllers\Template\View.php(21): App\Controllers\Template\View->UserIndex(3, 0)
+#2 C:\lara\www\iblogg\system\CodeIgniter.php(914): App\Controllers\Template\View->view('user')
+#3 C:\lara\www\iblogg\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Template\View))
+#4 C:\lara\www\iblogg\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\lara\www\iblogg\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 C:\lara\www\iblogg\system\Commands\Server\rewrite.php(34): require_once('C:\\lara\\www\\ibl...')
+#7 {main}
+CRITICAL - 2020-09-13 03:00:44 --> links is not a valid param name.
+#0 C:\lara\www\iblogg\system\View\Cell.php(176): CodeIgniter\View\Exceptions\ViewException::forInvalidCellParameter('links')
+#1 C:\lara\www\iblogg\system\Common.php(1108): CodeIgniter\View\Cell->render('\\App\\Libraries\\...', Array, 0, 'AppLibrariesHel...')
+#2 C:\lara\www\iblogg\app\Views\user\homepost.php(63): view_cell('\\App\\Libraries\\...', Array)
+#3 C:\lara\www\iblogg\system\View\View.php(246): include('C:\\lara\\www\\ibl...')
+#4 C:\lara\www\iblogg\system\Common.php(1087): CodeIgniter\View\View->render('user/homepost', Array, true)
+#5 C:\lara\www\iblogg\app\Controllers\Template\View.php(89): view('user/homepost', Array)
+#6 C:\lara\www\iblogg\app\Controllers\Template\View.php(56): App\Controllers\Template\View->returnView('user', 'homepost', Array)
+#7 C:\lara\www\iblogg\app\Controllers\Template\View.php(22): App\Controllers\Template\View->UserIndex(3, 0, '0')
+#8 C:\lara\www\iblogg\system\CodeIgniter.php(914): App\Controllers\Template\View->view('user')
+#9 C:\lara\www\iblogg\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Template\View))
+#10 C:\lara\www\iblogg\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\lara\www\iblogg\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#12 C:\lara\www\iblogg\system\Commands\Server\rewrite.php(34): require_once('C:\\lara\\www\\ibl...')
+#13 {main}
+CRITICAL - 2020-09-13 04:27:29 --> Call to undefined method CodeIgniter\HTTP\IncomingRequest::hasVar()
+#0 C:\lara\www\iblogg\system\CodeIgniter.php(914): App\Controllers\Home->index()
+#1 C:\lara\www\iblogg\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\lara\www\iblogg\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\lara\www\iblogg\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 C:\lara\www\iblogg\system\Commands\Server\rewrite.php(34): require_once('C:\\lara\\www\\ibl...')
+#5 {main}
+CRITICAL - 2020-09-13 10:31:08 --> syntax error, unexpected 'class' (T_CLASS), expecting ',' or ';'
+#0 C:\lara\www\iblogg\system\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->requireFile('C:\\lara\\www\\ibl...')
+#1 C:\lara\www\iblogg\system\Autoloader\Autoloader.php(258): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 C:\lara\www\iblogg\system\CodeIgniter.php(865): class_exists('\\App\\Controller...', true)
+#5 C:\lara\www\iblogg\system\CodeIgniter.php(390): CodeIgniter\CodeIgniter->startController()
+#6 C:\lara\www\iblogg\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\lara\www\iblogg\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 C:\lara\www\iblogg\system\Commands\Server\rewrite.php(34): require_once('C:\\lara\\www\\ibl...')
+#9 {main}
+CRITICAL - 2020-09-13 10:32:02 --> Call to undefined method CodeIgniter\HTTP\IncomingRequest::uri()
+#0 C:\lara\www\iblogg\system\CodeIgniter.php(914): App\Controllers\Home->index()
+#1 C:\lara\www\iblogg\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\lara\www\iblogg\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\lara\www\iblogg\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 C:\lara\www\iblogg\system\Commands\Server\rewrite.php(34): require_once('C:\\lara\\www\\ibl...')
+#5 {main}
+CRITICAL - 2020-09-13 10:38:09 --> Too few arguments to function App\Controllers\Home::index(), 0 passed in C:\lara\www\iblogg\system\CodeIgniter.php on line 914 and exactly 1 expected
+#0 C:\lara\www\iblogg\system\CodeIgniter.php(914): App\Controllers\Home->index()
+#1 C:\lara\www\iblogg\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\lara\www\iblogg\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\lara\www\iblogg\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 C:\lara\www\iblogg\system\Commands\Server\rewrite.php(34): require_once('C:\\lara\\www\\ibl...')
+#5 {main}
+CRITICAL - 2020-09-13 10:38:19 --> Too few arguments to function App\Controllers\Home::index(), 0 passed in C:\lara\www\iblogg\system\CodeIgniter.php on line 914 and exactly 1 expected
+#0 C:\lara\www\iblogg\system\CodeIgniter.php(914): App\Controllers\Home->index()
+#1 C:\lara\www\iblogg\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\lara\www\iblogg\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\lara\www\iblogg\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 C:\lara\www\iblogg\system\Commands\Server\rewrite.php(34): require_once('C:\\lara\\www\\ibl...')
+#5 {main}
+CRITICAL - 2020-09-13 10:38:34 --> Too few arguments to function App\Controllers\Home::index(), 0 passed in C:\lara\www\iblogg\system\CodeIgniter.php on line 914 and exactly 1 expected
+#0 C:\lara\www\iblogg\system\CodeIgniter.php(914): App\Controllers\Home->index()
+#1 C:\lara\www\iblogg\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\lara\www\iblogg\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\lara\www\iblogg\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 C:\lara\www\iblogg\system\Commands\Server\rewrite.php(34): require_once('C:\\lara\\www\\ibl...')
+#5 {main}
+CRITICAL - 2020-09-13 10:39:05 --> Too few arguments to function App\Controllers\Home::index(), 0 passed in C:\lara\www\iblogg\system\CodeIgniter.php on line 914 and exactly 1 expected
+#0 C:\lara\www\iblogg\system\CodeIgniter.php(914): App\Controllers\Home->index()
+#1 C:\lara\www\iblogg\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\lara\www\iblogg\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\lara\www\iblogg\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 C:\lara\www\iblogg\system\Commands\Server\rewrite.php(34): require_once('C:\\lara\\www\\ibl...')
+#5 {main}
+CRITICAL - 2020-09-13 10:39:05 --> Too few arguments to function App\Controllers\Home::index(), 0 passed in C:\lara\www\iblogg\system\CodeIgniter.php on line 914 and exactly 1 expected
+#0 C:\lara\www\iblogg\system\CodeIgniter.php(914): App\Controllers\Home->index()
+#1 C:\lara\www\iblogg\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\lara\www\iblogg\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\lara\www\iblogg\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 C:\lara\www\iblogg\system\Commands\Server\rewrite.php(34): require_once('C:\\lara\\www\\ibl...')
+#5 {main}
+CRITICAL - 2020-09-13 10:41:54 --> Undefined property: App\Controllers\Home::$session
+#0 C:\lara\www\iblogg\app\Controllers\Home.php(9): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\lara\\www\\ibl...', 9, Array)
+#1 C:\lara\www\iblogg\system\CodeIgniter.php(914): App\Controllers\Home->redirect('mm', 'lll', 'mm')
+#2 C:\lara\www\iblogg\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\lara\www\iblogg\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\lara\www\iblogg\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\lara\www\iblogg\system\Commands\Server\rewrite.php(34): require_once('C:\\lara\\www\\ibl...')
+#6 {main}
+CRITICAL - 2020-09-13 10:53:01 --> Undefined offset: 0
+#0 C:\lara\www\iblogg\app\Controllers\Home.php(14): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'C:\\lara\\www\\ibl...', 14, Array)
+#1 C:\lara\www\iblogg\system\CodeIgniter.php(914): App\Controllers\Home->redirect('mm', 'm')
+#2 C:\lara\www\iblogg\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\lara\www\iblogg\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\lara\www\iblogg\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\lara\www\iblogg\system\Commands\Server\rewrite.php(34): require_once('C:\\lara\\www\\ibl...')
+#6 {main}
+CRITICAL - 2020-09-13 10:57:24 --> array_column() expects at least 2 parameters, 1 given
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'array_column() ...', 'C:\\lara\\www\\ibl...', 11, Array)
+#1 C:\lara\www\iblogg\app\Controllers\Home.php(11): array_column(Array)
+#2 C:\lara\www\iblogg\system\CodeIgniter.php(914): App\Controllers\Home->redirect('mm', 'm')
+#3 C:\lara\www\iblogg\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 C:\lara\www\iblogg\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\lara\www\iblogg\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 C:\lara\www\iblogg\system\Commands\Server\rewrite.php(34): require_once('C:\\lara\\www\\ibl...')
+#7 {main}
+CRITICAL - 2020-09-13 11:43:02 --> syntax error, unexpected ')'
+#0 C:\lara\www\iblogg\system\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->requireFile('C:\\lara\\www\\ibl...')
+#1 C:\lara\www\iblogg\system\Autoloader\Autoloader.php(258): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 C:\lara\www\iblogg\system\CodeIgniter.php(865): class_exists('\\App\\Controller...', true)
+#5 C:\lara\www\iblogg\system\CodeIgniter.php(390): CodeIgniter\CodeIgniter->startController()
+#6 C:\lara\www\iblogg\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\lara\www\iblogg\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 C:\lara\www\iblogg\system\Commands\Server\rewrite.php(34): require_once('C:\\lara\\www\\ibl...')
+#9 {main}
+CRITICAL - 2020-09-13 11:43:21 --> Use of undefined constant uri - assumed 'uri' (this will throw an Error in a future version of PHP)
+#0 C:\lara\www\iblogg\app\Controllers\Home.php(17): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Use of undefine...', 'C:\\lara\\www\\ibl...', 17, Array)
+#1 C:\lara\www\iblogg\system\CodeIgniter.php(914): App\Controllers\Home->redirect('mm', 'm')
+#2 C:\lara\www\iblogg\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\lara\www\iblogg\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\lara\www\iblogg\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\lara\www\iblogg\system\Commands\Server\rewrite.php(34): require_once('C:\\lara\\www\\ibl...')
+#6 {main}
+CRITICAL - 2020-09-13 12:45:33 --> syntax error, unexpected '?>'
+#0 C:\lara\www\iblogg\system\Common.php(1087): CodeIgniter\View\View->render('admin/newpost', Array, true)
+#1 C:\lara\www\iblogg\app\Controllers\Template\View.php(89): view('admin/newpost', Array)
+#2 C:\lara\www\iblogg\app\Controllers\Template\View.php(82): App\Controllers\Template\View->returnView('admin', 'newpost')
+#3 C:\lara\www\iblogg\app\Controllers\Template\View.php(30): App\Controllers\Template\View->AdminNewPost()
+#4 C:\lara\www\iblogg\system\CodeIgniter.php(914): App\Controllers\Template\View->view('admin')
+#5 C:\lara\www\iblogg\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Template\View))
+#6 C:\lara\www\iblogg\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\lara\www\iblogg\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 C:\lara\www\iblogg\system\Commands\Server\rewrite.php(34): require_once('C:\\lara\\www\\ibl...')
+#9 {main}

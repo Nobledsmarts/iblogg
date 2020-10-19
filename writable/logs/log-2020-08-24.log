@@ -1,0 +1,369 @@
+CRITICAL - 2020-08-24 01:38:33 --> No connection could be made because the target machine actively refused it.
+
+#0 C:\lara\www\iblogg\system\Database\BaseConnection.php(377): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\lara\www\iblogg\system\Database\BaseConnection.php(643): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\lara\www\iblogg\system\Database\BaseBuilder.php(1845): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 C:\lara\www\iblogg\system\Model.php(445): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\lara\www\iblogg\app\Models\Posts.php(19): CodeIgniter\Model->findAll()
+#5 C:\lara\www\iblogg\app\Controllers\Template\View.php(17): App\Models\Posts->getPosts()
+#6 C:\lara\www\iblogg\system\CodeIgniter.php(914): App\Controllers\Template\View->view('homepost')
+#7 C:\lara\www\iblogg\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Template\View))
+#8 C:\lara\www\iblogg\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\lara\www\iblogg\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#10 C:\lara\www\iblogg\system\Commands\Server\rewrite.php(34): require_once('C:\\lara\\www\\ibl...')
+#11 {main}
+CRITICAL - 2020-08-24 01:39:33 --> No connection could be made because the target machine actively refused it.
+
+#0 C:\lara\www\iblogg\system\Database\BaseConnection.php(377): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\lara\www\iblogg\system\Database\BaseConnection.php(643): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\lara\www\iblogg\system\Database\BaseBuilder.php(1845): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 C:\lara\www\iblogg\system\Model.php(445): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\lara\www\iblogg\app\Models\Posts.php(19): CodeIgniter\Model->findAll()
+#5 C:\lara\www\iblogg\app\Controllers\Template\View.php(17): App\Models\Posts->getPosts()
+#6 C:\lara\www\iblogg\system\CodeIgniter.php(914): App\Controllers\Template\View->view('homepost')
+#7 C:\lara\www\iblogg\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Template\View))
+#8 C:\lara\www\iblogg\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\lara\www\iblogg\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#10 C:\lara\www\iblogg\system\Commands\Server\rewrite.php(34): require_once('C:\\lara\\www\\ibl...')
+#11 {main}
+CRITICAL - 2020-08-24 01:41:10 --> No connection could be made because the target machine actively refused it.
+
+#0 C:\lara\www\iblogg\system\Database\BaseConnection.php(377): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\lara\www\iblogg\system\Database\BaseConnection.php(643): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\lara\www\iblogg\system\Database\BaseBuilder.php(1845): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 C:\lara\www\iblogg\system\Model.php(445): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\lara\www\iblogg\app\Models\Posts.php(19): CodeIgniter\Model->findAll()
+#5 C:\lara\www\iblogg\app\Controllers\Template\View.php(17): App\Models\Posts->getPosts()
+#6 C:\lara\www\iblogg\system\CodeIgniter.php(914): App\Controllers\Template\View->view('homepost')
+#7 C:\lara\www\iblogg\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Template\View))
+#8 C:\lara\www\iblogg\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\lara\www\iblogg\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#10 C:\lara\www\iblogg\system\Commands\Server\rewrite.php(34): require_once('C:\\lara\\www\\ibl...')
+#11 {main}
+CRITICAL - 2020-08-24 01:42:12 --> No connection could be made because the target machine actively refused it.
+
+#0 C:\lara\www\iblogg\system\Database\BaseConnection.php(377): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\lara\www\iblogg\system\Database\BaseConnection.php(643): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\lara\www\iblogg\system\Database\BaseBuilder.php(1845): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 C:\lara\www\iblogg\system\Model.php(445): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\lara\www\iblogg\app\Models\Posts.php(19): CodeIgniter\Model->findAll()
+#5 C:\lara\www\iblogg\app\Controllers\Template\View.php(17): App\Models\Posts->getPosts()
+#6 C:\lara\www\iblogg\system\CodeIgniter.php(914): App\Controllers\Template\View->view('homepost')
+#7 C:\lara\www\iblogg\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Template\View))
+#8 C:\lara\www\iblogg\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\lara\www\iblogg\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#10 C:\lara\www\iblogg\system\Commands\Server\rewrite.php(34): require_once('C:\\lara\\www\\ibl...')
+#11 {main}
+CRITICAL - 2020-08-24 01:43:44 --> No connection could be made because the target machine actively refused it.
+
+#0 C:\lara\www\iblogg\system\Database\BaseConnection.php(377): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\lara\www\iblogg\system\Database\BaseConnection.php(643): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\lara\www\iblogg\system\Database\BaseBuilder.php(1845): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 C:\lara\www\iblogg\system\Model.php(445): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\lara\www\iblogg\app\Models\Posts.php(19): CodeIgniter\Model->findAll()
+#5 C:\lara\www\iblogg\app\Controllers\Template\View.php(17): App\Models\Posts->getPosts()
+#6 C:\lara\www\iblogg\system\CodeIgniter.php(914): App\Controllers\Template\View->view('homepost')
+#7 C:\lara\www\iblogg\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Template\View))
+#8 C:\lara\www\iblogg\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\lara\www\iblogg\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#10 C:\lara\www\iblogg\system\Commands\Server\rewrite.php(34): require_once('C:\\lara\\www\\ibl...')
+#11 {main}
+CRITICAL - 2020-08-24 01:44:58 --> No connection could be made because the target machine actively refused it.
+
+#0 C:\lara\www\iblogg\system\Database\BaseConnection.php(377): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\lara\www\iblogg\system\Database\BaseConnection.php(643): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\lara\www\iblogg\system\Database\BaseBuilder.php(1845): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 C:\lara\www\iblogg\system\Model.php(445): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\lara\www\iblogg\app\Models\Posts.php(19): CodeIgniter\Model->findAll()
+#5 C:\lara\www\iblogg\app\Controllers\Template\View.php(17): App\Models\Posts->getPosts()
+#6 C:\lara\www\iblogg\system\CodeIgniter.php(914): App\Controllers\Template\View->view('homepost')
+#7 C:\lara\www\iblogg\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Template\View))
+#8 C:\lara\www\iblogg\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\lara\www\iblogg\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#10 C:\lara\www\iblogg\system\Commands\Server\rewrite.php(34): require_once('C:\\lara\\www\\ibl...')
+#11 {main}
+CRITICAL - 2020-08-24 01:45:36 --> No connection could be made because the target machine actively refused it.
+
+#0 C:\lara\www\iblogg\system\Database\BaseConnection.php(377): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\lara\www\iblogg\system\Database\BaseConnection.php(643): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\lara\www\iblogg\system\Database\BaseBuilder.php(1845): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 C:\lara\www\iblogg\system\Model.php(445): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\lara\www\iblogg\app\Models\Posts.php(19): CodeIgniter\Model->findAll()
+#5 C:\lara\www\iblogg\app\Controllers\Template\View.php(17): App\Models\Posts->getPosts()
+#6 C:\lara\www\iblogg\system\CodeIgniter.php(914): App\Controllers\Template\View->view('homepost')
+#7 C:\lara\www\iblogg\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Template\View))
+#8 C:\lara\www\iblogg\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\lara\www\iblogg\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#10 C:\lara\www\iblogg\system\Commands\Server\rewrite.php(34): require_once('C:\\lara\\www\\ibl...')
+#11 {main}
+CRITICAL - 2020-08-24 01:47:57 --> No connection could be made because the target machine actively refused it.
+
+#0 C:\lara\www\iblogg\system\Database\BaseConnection.php(377): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\lara\www\iblogg\system\Database\BaseConnection.php(643): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\lara\www\iblogg\system\Database\BaseBuilder.php(1845): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 C:\lara\www\iblogg\system\Model.php(445): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\lara\www\iblogg\app\Models\Posts.php(19): CodeIgniter\Model->findAll()
+#5 C:\lara\www\iblogg\app\Controllers\Template\View.php(17): App\Models\Posts->getPosts()
+#6 C:\lara\www\iblogg\system\CodeIgniter.php(914): App\Controllers\Template\View->view('homepost')
+#7 C:\lara\www\iblogg\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Template\View))
+#8 C:\lara\www\iblogg\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\lara\www\iblogg\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#10 C:\lara\www\iblogg\system\Commands\Server\rewrite.php(34): require_once('C:\\lara\\www\\ibl...')
+#11 {main}
+CRITICAL - 2020-08-24 01:48:37 --> No connection could be made because the target machine actively refused it.
+
+#0 C:\lara\www\iblogg\system\Database\BaseConnection.php(377): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\lara\www\iblogg\system\Database\BaseConnection.php(643): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\lara\www\iblogg\system\Database\BaseBuilder.php(1845): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 C:\lara\www\iblogg\system\Model.php(445): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\lara\www\iblogg\app\Models\Posts.php(19): CodeIgniter\Model->findAll()
+#5 C:\lara\www\iblogg\app\Controllers\Template\View.php(17): App\Models\Posts->getPosts()
+#6 C:\lara\www\iblogg\system\CodeIgniter.php(914): App\Controllers\Template\View->view('homepost')
+#7 C:\lara\www\iblogg\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Template\View))
+#8 C:\lara\www\iblogg\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\lara\www\iblogg\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#10 C:\lara\www\iblogg\system\Commands\Server\rewrite.php(34): require_once('C:\\lara\\www\\ibl...')
+#11 {main}
+CRITICAL - 2020-08-24 01:48:47 --> No connection could be made because the target machine actively refused it.
+
+#0 C:\lara\www\iblogg\system\Database\BaseConnection.php(377): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\lara\www\iblogg\system\Database\BaseConnection.php(643): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\lara\www\iblogg\system\Database\BaseBuilder.php(1845): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 C:\lara\www\iblogg\system\Model.php(445): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\lara\www\iblogg\app\Models\Posts.php(19): CodeIgniter\Model->findAll()
+#5 C:\lara\www\iblogg\app\Controllers\Template\View.php(17): App\Models\Posts->getPosts()
+#6 C:\lara\www\iblogg\system\CodeIgniter.php(914): App\Controllers\Template\View->view('homepost')
+#7 C:\lara\www\iblogg\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Template\View))
+#8 C:\lara\www\iblogg\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\lara\www\iblogg\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#10 C:\lara\www\iblogg\system\Commands\Server\rewrite.php(34): require_once('C:\\lara\\www\\ibl...')
+#11 {main}
+CRITICAL - 2020-08-24 01:49:48 --> No connection could be made because the target machine actively refused it.
+
+#0 C:\lara\www\iblogg\system\Database\BaseConnection.php(377): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\lara\www\iblogg\system\Database\BaseConnection.php(643): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\lara\www\iblogg\system\Database\BaseBuilder.php(1845): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 C:\lara\www\iblogg\system\Model.php(445): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\lara\www\iblogg\app\Models\Posts.php(19): CodeIgniter\Model->findAll()
+#5 C:\lara\www\iblogg\app\Controllers\Template\View.php(17): App\Models\Posts->getPosts()
+#6 C:\lara\www\iblogg\system\CodeIgniter.php(914): App\Controllers\Template\View->view('homepost')
+#7 C:\lara\www\iblogg\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Template\View))
+#8 C:\lara\www\iblogg\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\lara\www\iblogg\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#10 C:\lara\www\iblogg\system\Commands\Server\rewrite.php(34): require_once('C:\\lara\\www\\ibl...')
+#11 {main}
+CRITICAL - 2020-08-24 01:53:51 --> No connection could be made because the target machine actively refused it.
+
+#0 C:\lara\www\iblogg\system\Database\BaseConnection.php(377): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\lara\www\iblogg\system\Database\BaseConnection.php(643): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\lara\www\iblogg\system\Database\BaseBuilder.php(1845): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 C:\lara\www\iblogg\system\Model.php(445): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\lara\www\iblogg\app\Models\Posts.php(19): CodeIgniter\Model->findAll()
+#5 C:\lara\www\iblogg\app\Controllers\Template\View.php(17): App\Models\Posts->getPosts()
+#6 C:\lara\www\iblogg\system\CodeIgniter.php(914): App\Controllers\Template\View->view('homepost')
+#7 C:\lara\www\iblogg\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Template\View))
+#8 C:\lara\www\iblogg\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\lara\www\iblogg\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#10 C:\lara\www\iblogg\system\Commands\Server\rewrite.php(34): require_once('C:\\lara\\www\\ibl...')
+#11 {main}
+CRITICAL - 2020-08-24 07:14:56 --> No connection could be made because the target machine actively refused it.
+
+#0 C:\lara\www\iblogg\system\Database\BaseConnection.php(377): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\lara\www\iblogg\system\Database\BaseConnection.php(643): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\lara\www\iblogg\system\Database\BaseBuilder.php(1845): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 C:\lara\www\iblogg\system\Model.php(445): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\lara\www\iblogg\app\Controllers\Template\View.php(16): CodeIgniter\Model->findAll()
+#5 C:\lara\www\iblogg\system\CodeIgniter.php(914): App\Controllers\Template\View->view('homepost')
+#6 C:\lara\www\iblogg\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Template\View))
+#7 C:\lara\www\iblogg\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\lara\www\iblogg\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#9 C:\lara\www\iblogg\system\Commands\Server\rewrite.php(34): require_once('C:\\lara\\www\\ibl...')
+#10 {main}
+CRITICAL - 2020-08-24 07:15:27 --> No connection could be made because the target machine actively refused it.
+
+#0 C:\lara\www\iblogg\system\Database\BaseConnection.php(377): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\lara\www\iblogg\system\Database\BaseConnection.php(643): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\lara\www\iblogg\system\Database\BaseBuilder.php(1845): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 C:\lara\www\iblogg\system\Model.php(445): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\lara\www\iblogg\app\Controllers\Template\View.php(16): CodeIgniter\Model->findAll()
+#5 C:\lara\www\iblogg\system\CodeIgniter.php(914): App\Controllers\Template\View->view('homepost')
+#6 C:\lara\www\iblogg\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Template\View))
+#7 C:\lara\www\iblogg\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\lara\www\iblogg\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#9 C:\lara\www\iblogg\system\Commands\Server\rewrite.php(34): require_once('C:\\lara\\www\\ibl...')
+#10 {main}
+CRITICAL - 2020-08-24 07:17:10 --> No database selected
+#0 C:\lara\www\iblogg\system\Database\MySQLi\Connection.php(331): mysqli->query('SELECT *\nFROM `...')
+#1 C:\lara\www\iblogg\system\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\lara\www\iblogg\system\Database\BaseConnection.php(666): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\lara\www\iblogg\system\Database\BaseBuilder.php(1845): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\lara\www\iblogg\system\Model.php(445): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\lara\www\iblogg\app\Controllers\Template\View.php(16): CodeIgniter\Model->findAll()
+#6 C:\lara\www\iblogg\system\CodeIgniter.php(914): App\Controllers\Template\View->view('homepost')
+#7 C:\lara\www\iblogg\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Template\View))
+#8 C:\lara\www\iblogg\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\lara\www\iblogg\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#10 C:\lara\www\iblogg\system\Commands\Server\rewrite.php(34): require_once('C:\\lara\\www\\ibl...')
+#11 {main}
+CRITICAL - 2020-08-24 07:17:21 --> No database selected
+#0 C:\lara\www\iblogg\system\Database\MySQLi\Connection.php(331): mysqli->query('SELECT *\nFROM `...')
+#1 C:\lara\www\iblogg\system\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\lara\www\iblogg\system\Database\BaseConnection.php(666): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\lara\www\iblogg\system\Database\BaseBuilder.php(1845): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\lara\www\iblogg\system\Model.php(445): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\lara\www\iblogg\app\Controllers\Template\View.php(16): CodeIgniter\Model->findAll()
+#6 C:\lara\www\iblogg\system\CodeIgniter.php(914): App\Controllers\Template\View->view('homepost')
+#7 C:\lara\www\iblogg\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Template\View))
+#8 C:\lara\www\iblogg\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\lara\www\iblogg\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#10 C:\lara\www\iblogg\system\Commands\Server\rewrite.php(34): require_once('C:\\lara\\www\\ibl...')
+#11 {main}
+CRITICAL - 2020-08-24 07:17:52 --> Access denied for user '****'@'localhost' (using password: NO)
+#0 C:\lara\www\iblogg\system\Database\BaseConnection.php(377): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\lara\www\iblogg\system\Database\BaseConnection.php(643): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\lara\www\iblogg\system\Database\BaseBuilder.php(1845): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 C:\lara\www\iblogg\system\Model.php(445): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\lara\www\iblogg\app\Controllers\Template\View.php(16): CodeIgniter\Model->findAll()
+#5 C:\lara\www\iblogg\system\CodeIgniter.php(914): App\Controllers\Template\View->view('homepost')
+#6 C:\lara\www\iblogg\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Template\View))
+#7 C:\lara\www\iblogg\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\lara\www\iblogg\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#9 C:\lara\www\iblogg\system\Commands\Server\rewrite.php(34): require_once('C:\\lara\\www\\ibl...')
+#10 {main}
+CRITICAL - 2020-08-24 07:18:10 --> Access denied for user '****'@'localhost' (using password: YES)
+#0 C:\lara\www\iblogg\system\Database\BaseConnection.php(377): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\lara\www\iblogg\system\Database\BaseConnection.php(643): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\lara\www\iblogg\system\Database\BaseBuilder.php(1845): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 C:\lara\www\iblogg\system\Model.php(445): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\lara\www\iblogg\app\Controllers\Template\View.php(16): CodeIgniter\Model->findAll()
+#5 C:\lara\www\iblogg\system\CodeIgniter.php(914): App\Controllers\Template\View->view('homepost')
+#6 C:\lara\www\iblogg\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Template\View))
+#7 C:\lara\www\iblogg\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\lara\www\iblogg\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#9 C:\lara\www\iblogg\system\Commands\Server\rewrite.php(34): require_once('C:\\lara\\www\\ibl...')
+#10 {main}
+CRITICAL - 2020-08-24 07:18:22 --> Class '\CodeIgniter\Database\Pdo\Connection' not found
+#0 C:\lara\www\iblogg\system\Database\Config.php(115): CodeIgniter\Database\Database->load(Array, 'default')
+#1 C:\lara\www\iblogg\system\Model.php(336): CodeIgniter\Database\Config::connect('default')
+#2 C:\lara\www\iblogg\app\Controllers\Template\View.php(12): CodeIgniter\Model->__construct()
+#3 C:\lara\www\iblogg\system\CodeIgniter.php(914): App\Controllers\Template\View->view('homepost')
+#4 C:\lara\www\iblogg\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Template\View))
+#5 C:\lara\www\iblogg\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\lara\www\iblogg\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 C:\lara\www\iblogg\system\Commands\Server\rewrite.php(34): require_once('C:\\lara\\www\\ibl...')
+#8 {main}
+CRITICAL - 2020-08-24 07:46:16 --> Invalid file: homepost.php
+#0 C:\lara\www\iblogg\system\View\View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('homepost.php')
+#1 C:\lara\www\iblogg\system\Common.php(1087): CodeIgniter\View\View->render('homepost', Array, true)
+#2 C:\lara\www\iblogg\app\Controllers\AdminTemplate\View.php(18): view('homepost', Array)
+#3 C:\lara\www\iblogg\system\CodeIgniter.php(914): App\Controllers\AdminTemplate\View->view('homepost')
+#4 C:\lara\www\iblogg\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminTemplate\View))
+#5 C:\lara\www\iblogg\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\lara\www\iblogg\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 C:\lara\www\iblogg\system\Commands\Server\rewrite.php(34): require_once('C:\\lara\\www\\ibl...')
+#8 {main}
+CRITICAL - 2020-08-24 07:52:26 --> Invalid file: homepost.php
+#0 C:\lara\www\iblogg\system\View\View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('homepost.php')
+#1 C:\lara\www\iblogg\system\Common.php(1087): CodeIgniter\View\View->render('homepost', Array, true)
+#2 C:\lara\www\iblogg\app\Controllers\Template\View.php(19): view('homepost', Array)
+#3 C:\lara\www\iblogg\system\CodeIgniter.php(914): App\Controllers\Template\View->view('homepost')
+#4 C:\lara\www\iblogg\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Template\View))
+#5 C:\lara\www\iblogg\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\lara\www\iblogg\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 C:\lara\www\iblogg\system\Commands\Server\rewrite.php(34): require_once('C:\\lara\\www\\ibl...')
+#8 {main}
+CRITICAL - 2020-08-24 07:53:35 --> Invalid file: singlepost.php
+#0 C:\lara\www\iblogg\system\View\View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('singlepost.php')
+#1 C:\lara\www\iblogg\system\Common.php(1087): CodeIgniter\View\View->render('singlepost', Array, true)
+#2 C:\lara\www\iblogg\app\Controllers\Template\View.php(24): view('singlepost', Array)
+#3 C:\lara\www\iblogg\system\CodeIgniter.php(914): App\Controllers\Template\View->view('singlepost', 'my-second-post')
+#4 C:\lara\www\iblogg\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Template\View))
+#5 C:\lara\www\iblogg\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\lara\www\iblogg\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 C:\lara\www\iblogg\system\Commands\Server\rewrite.php(34): require_once('C:\\lara\\www\\ibl...')
+#8 {main}
+CRITICAL - 2020-08-24 07:59:24 --> Undefined offset: 1
+#0 C:\lara\www\iblogg\app\Controllers\Template\View.php(10): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'C:\\lara\\www\\ibl...', 10, Array)
+#1 C:\lara\www\iblogg\system\CodeIgniter.php(914): App\Controllers\Template\View->view('homepost')
+#2 C:\lara\www\iblogg\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Template\View))
+#3 C:\lara\www\iblogg\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\lara\www\iblogg\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\lara\www\iblogg\system\Commands\Server\rewrite.php(34): require_once('C:\\lara\\www\\ibl...')
+#6 {main}
+CRITICAL - 2020-08-24 07:59:35 --> Unsupported operand types
+#0 C:\lara\www\iblogg\system\CodeIgniter.php(914): App\Controllers\Template\View->view('homepost')
+#1 C:\lara\www\iblogg\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Template\View))
+#2 C:\lara\www\iblogg\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\lara\www\iblogg\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 C:\lara\www\iblogg\system\Commands\Server\rewrite.php(34): require_once('C:\\lara\\www\\ibl...')
+#5 {main}
+CRITICAL - 2020-08-24 07:59:38 --> Unsupported operand types
+#0 C:\lara\www\iblogg\system\CodeIgniter.php(914): App\Controllers\Template\View->view('homepost')
+#1 C:\lara\www\iblogg\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Template\View))
+#2 C:\lara\www\iblogg\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\lara\www\iblogg\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 C:\lara\www\iblogg\system\Commands\Server\rewrite.php(34): require_once('C:\\lara\\www\\ibl...')
+#5 {main}
+CRITICAL - 2020-08-24 07:59:54 --> Unsupported operand types
+#0 C:\lara\www\iblogg\system\CodeIgniter.php(914): App\Controllers\Template\View->view('homepost')
+#1 C:\lara\www\iblogg\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Template\View))
+#2 C:\lara\www\iblogg\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\lara\www\iblogg\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 C:\lara\www\iblogg\system\Commands\Server\rewrite.php(34): require_once('C:\\lara\\www\\ibl...')
+#5 {main}
+CRITICAL - 2020-08-24 08:00:23 --> Unsupported operand types
+#0 C:\lara\www\iblogg\system\CodeIgniter.php(914): App\Controllers\Template\View->view('homepost')
+#1 C:\lara\www\iblogg\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Template\View))
+#2 C:\lara\www\iblogg\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\lara\www\iblogg\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 C:\lara\www\iblogg\system\Commands\Server\rewrite.php(34): require_once('C:\\lara\\www\\ibl...')
+#5 {main}
+CRITICAL - 2020-08-24 08:04:09 --> Invalid file: admin/homepost.php
+#0 C:\lara\www\iblogg\system\View\View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('admin/homepost....')
+#1 C:\lara\www\iblogg\system\Common.php(1087): CodeIgniter\View\View->render('admin/homepost', Array, true)
+#2 C:\lara\www\iblogg\app\Controllers\Template\View.php(22): view('admin/homepost', Array)
+#3 C:\lara\www\iblogg\system\CodeIgniter.php(914): App\Controllers\Template\View->view('homepost', 'admin')
+#4 C:\lara\www\iblogg\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Template\View))
+#5 C:\lara\www\iblogg\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\lara\www\iblogg\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 C:\lara\www\iblogg\system\Commands\Server\rewrite.php(34): require_once('C:\\lara\\www\\ibl...')
+#8 {main}
+CRITICAL - 2020-08-24 16:14:24 --> No connection could be made because the target machine actively refused it.
+
+#0 C:\lara\www\iblogg\system\Database\BaseConnection.php(377): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\lara\www\iblogg\system\Database\BaseConnection.php(643): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\lara\www\iblogg\system\Database\BaseBuilder.php(1845): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 C:\lara\www\iblogg\system\Model.php(445): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\lara\www\iblogg\app\Controllers\Template\View.php(20): CodeIgniter\Model->findAll()
+#5 C:\lara\www\iblogg\system\CodeIgniter.php(914): App\Controllers\Template\View->view('homepost')
+#6 C:\lara\www\iblogg\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Template\View))
+#7 C:\lara\www\iblogg\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\lara\www\iblogg\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#9 C:\lara\www\iblogg\system\Commands\Server\rewrite.php(34): require_once('C:\\lara\\www\\ibl...')
+#10 {main}
+CRITICAL - 2020-08-24 16:14:34 --> No connection could be made because the target machine actively refused it.
+
+#0 C:\lara\www\iblogg\system\Database\BaseConnection.php(377): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\lara\www\iblogg\system\Database\BaseConnection.php(643): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\lara\www\iblogg\system\Database\BaseBuilder.php(1845): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 C:\lara\www\iblogg\system\Model.php(445): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\lara\www\iblogg\app\Controllers\Template\View.php(20): CodeIgniter\Model->findAll()
+#5 C:\lara\www\iblogg\system\CodeIgniter.php(914): App\Controllers\Template\View->view('homepost')
+#6 C:\lara\www\iblogg\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Template\View))
+#7 C:\lara\www\iblogg\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\lara\www\iblogg\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#9 C:\lara\www\iblogg\system\Commands\Server\rewrite.php(34): require_once('C:\\lara\\www\\ibl...')
+#10 {main}
+CRITICAL - 2020-08-24 16:14:51 --> No connection could be made because the target machine actively refused it.
+
+#0 C:\lara\www\iblogg\system\Database\BaseConnection.php(377): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\lara\www\iblogg\system\Database\BaseConnection.php(643): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\lara\www\iblogg\system\Database\BaseBuilder.php(1845): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 C:\lara\www\iblogg\system\Model.php(445): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\lara\www\iblogg\app\Controllers\Template\View.php(20): CodeIgniter\Model->findAll()
+#5 C:\lara\www\iblogg\system\CodeIgniter.php(914): App\Controllers\Template\View->view('homepost')
+#6 C:\lara\www\iblogg\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Template\View))
+#7 C:\lara\www\iblogg\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\lara\www\iblogg\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#9 C:\lara\www\iblogg\system\Commands\Server\rewrite.php(34): require_once('C:\\lara\\www\\ibl...')
+#10 {main}
